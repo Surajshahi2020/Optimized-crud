@@ -1,0 +1,17 @@
+<form action="process.php" method="POST">
+    <h2>Student Entry</h2>
+    <label for="id">ID</label>
+    <input type="number" id="id" name="id" nullable><br><br>
+    <label for="number">No</label>
+    <input type="number" id="number" name="number" required><br><br>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10 digitz phone number" required><br><br>
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" required><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required><br><br>
+    <input type="submit" value="Insert" name="submit">
+    <input type="submit" value="Update" name="submit">
+</form>
